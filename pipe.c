@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-/*读管道*/
+/*****读管道*/
 void read_from_pipe(int fd)
 {	
 	char message[100];
